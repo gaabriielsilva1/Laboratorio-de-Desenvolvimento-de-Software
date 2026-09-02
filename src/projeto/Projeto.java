@@ -4,8 +4,6 @@
  */
 package projeto;
 
-import java.util.List;
-
 /**
  *
  * @author laboratorio
