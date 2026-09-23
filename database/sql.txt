@@ -1,0 +1,21 @@
+create database BDAula01;
+
+use bdaula01
+
+create table pessoa(
+    -> id int auto_increment primary key,
+    -> nome varchar(50) not null,
+    -> sexo varchar(1) not null,
+    -> idioma varchar(10) not null
+    -> );
+
+insert into pessoa (nome, sexo, idioma)
+    -> values ("Ricardo","M", "Português");
+
+insert into pessoa (nome, sexo, idioma)
+    -> values
+    -> ("Gerald", "M", "Inglês"),
+    -> ("William", "M", "Inglês"),
+    -> ("Umberto", "M", "Espanhol"),
+    -> ("Jostein","M","Alemão"),
+    -> ("Stephen", "M","Holandês");
